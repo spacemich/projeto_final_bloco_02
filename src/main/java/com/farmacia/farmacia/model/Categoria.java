@@ -15,7 +15,7 @@ public class Categoria {
 	private Long id;
 	
 	@NotBlank
-	private String NomeCategoria;
+	private String nomeCategoria;
 
 	public Long getId() {
 		return id;
@@ -26,11 +26,12 @@ public class Categoria {
 	}
 
 	public String getNomeCategoria() {
-		return NomeCategoria;
+		return nomeCategoria;
 	}
 
 	public void setNomeCategoria(String nomeCategoria) {
-		NomeCategoria = nomeCategoria;
+		this.nomeCategoria = nomeCategoria;
 	}
+
 
 }
